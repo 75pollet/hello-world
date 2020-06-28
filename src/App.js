@@ -8,9 +8,10 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 
+
 function App() {
   return (
-    <div className="App">
+    <div className="App">    
       {/* <Counter /> */}
       <FunctionClick />
       <ClassClick />
@@ -20,7 +21,7 @@ function App() {
      <Greet name="dff" />
      <Greet name="tree" />
      <Welcome name="forrest"/> */}
-     <Message />
+     {/* <Message /> */}
     </div>
   );
 }
