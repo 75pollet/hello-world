@@ -9,16 +9,18 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 
 function App() {
   return (
-    <div className="App">    
+    <div className="App">   
+    <UserGreeting /> 
       {/* <Counter /> */}
       {/* <EventBind />
       <FunctionClick />
       <ClassClick /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
      {/* <Greet name="m si">
        <p>This is a child prop</p>
      </Greet>
