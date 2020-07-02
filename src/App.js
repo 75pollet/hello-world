@@ -17,14 +17,18 @@ import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComponentT from './components/PureComponentT';
+import ParentComp from './components/ParentComp';
 
 
 
 function App() {
   return (
     <div className="App"> 
-    <FragmentDemo />
-    <Table />
+    <ParentComp />
+    {/* <PureComponentT /> */}
+    {/* <FragmentDemo /> */}
+    {/* <Table /> */}
     {/* <LifecycleA /> */}
     {/* <Form /> */}
     {/* <Inline /> */}
