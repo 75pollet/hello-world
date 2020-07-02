@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet';
@@ -15,10 +15,17 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+
+
+
 function App() {
   return (
     <div className="App"> 
-    <LifecycleA />
+    <FragmentDemo />
+    <Table />
+    {/* <LifecycleA /> */}
     {/* <Form /> */}
     {/* <Inline /> */}
     {/* <Stylesheet /> */}
